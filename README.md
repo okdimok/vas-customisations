@@ -7,6 +7,8 @@ Refer to the [Virtual Atom Smasher Documentation Wiki](https://github.com/waveso
 
  1. Fork this repository to your Github account
  2. Clone it to your computer and make your changes
- 3. Don't forget to compile your `style.less` to `style.css`
+ 3. Don't forget to compile your `style.less` to `style.css` (1)
  4. Commit your changes
  5. See them online: htt://test4theory.cern.ch/vas#load=**repository-name**@**github-username**
+
+*(1)* If you have `node.js` and the `lessc` package installed, you can use the scripts `update-css.sh` (or `update-css.bat` for windows) in order to re-build the `style.css` file.
