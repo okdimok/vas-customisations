@@ -1,4 +1,4 @@
-define([ 'require', 'vas/core/base/components', 'vas/core/registry' ], function( C, R ) {
+define([ 'require', 'vas/core/base/components', 'vas/core/registry' ], function( require, C, R ) {
    var MyBackdrop = function( hostDOM ) {
       // 2) Call parent constructor
       C.Backdrop.call(this, hostDOM);
