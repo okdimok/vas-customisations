@@ -2,7 +2,7 @@ define([ 'require', 'vas/core/base/components', 'vas/core/registry' ], function(
    var MyBackdrop = function( hostDOM ) {
       // 2) Call parent constructor
       C.Backdrop.call(this, hostDOM);
-      hostDOM.css("background-image", "url(" + require.toUrl('../img/background.pnd') + ")");
+      hostDOM.css("background-image", "url(" + require.toUrl('../img/background.png') + ")");
 	  hostDOM.css("background-size", "cover");
 
    }
