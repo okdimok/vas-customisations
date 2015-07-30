@@ -2,6 +2,7 @@ define(
 	[
 		// Write your dependencies here, for example:
 		//"jquery"
+		"./js/custom_screen.js"
 	],function(
 		// Write a variable name for your dependencies, for example:
 		//$ 
